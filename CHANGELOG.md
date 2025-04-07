@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.5.0](https://github.com/microsoft/RD-Agent/compare/v0.4.0...v0.5.0) (2025-04-07)
+
+
+### Features
+
+* add a check for whether values in score_df are NaN ([#756](https://github.com/microsoft/RD-Agent/issues/756)) ([d9cc780](https://github.com/microsoft/RD-Agent/commit/d9cc78098beb27f3a1bf2f2d461302db177b7d41))
+* add naive experiment generator and update proposal configurations ([#759](https://github.com/microsoft/RD-Agent/issues/759)) ([75494f4](https://github.com/microsoft/RD-Agent/commit/75494f4fed5bc845acfd7f7bacef385f0f96c514))
+* add reasoning_effort parameter to LiteLLMAPIBackend and LLMSett… ([#754](https://github.com/microsoft/RD-Agent/issues/754)) ([113889f](https://github.com/microsoft/RD-Agent/commit/113889fefe9b09aaea1b564704c81664b8f77ec5))
+* joblib cache ([#749](https://github.com/microsoft/RD-Agent/issues/749)) ([83a0411](https://github.com/microsoft/RD-Agent/commit/83a041148ff908871b1906f9e6889d80ab513412))
+
+
+### Bug Fixes
+
+* duplicate model names test in pipeline coder & runner ([#763](https://github.com/microsoft/RD-Agent/issues/763)) ([be3ee9d](https://github.com/microsoft/RD-Agent/commit/be3ee9da9882edda3c06ff7d1099d1bbda2203c3))
+* fix some minor bugs ([#758](https://github.com/microsoft/RD-Agent/issues/758)) ([963f96e](https://github.com/microsoft/RD-Agent/commit/963f96e5596bee04074135c2a0e31a8adc39ad8c))
+* Set PYTHONPATH in env.run_ret_code call in FBWorkspace class ([#755](https://github.com/microsoft/RD-Agent/issues/755)) ([68b5018](https://github.com/microsoft/RD-Agent/commit/68b501889caca754f27b57d9ab6f72184e93b15c))
+* task_gen for better understanding ([#752](https://github.com/microsoft/RD-Agent/issues/752)) ([6bfc1e5](https://github.com/microsoft/RD-Agent/commit/6bfc1e570449ee69ac110a4ced9a7cecbc0e6a73))
+
 ## [0.4.0](https://github.com/microsoft/RD-Agent/compare/v0.3.0...v0.4.0) (2025-04-04)
 
 
